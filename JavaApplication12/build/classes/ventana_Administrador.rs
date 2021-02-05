@@ -1,0 +1,3 @@
+Control_de_Remesas.ventana_Administrador$2
+Control_de_Remesas.ventana_Administrador$1
+Control_de_Remesas.ventana_Administrador

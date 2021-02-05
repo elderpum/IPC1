@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="articulos">
+  <ClassDiagramComponents>
+    <Class name="articulos" package="videoclubresuelto" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="codigo" type="String[]" visibility="private"/>
+        <Field name="nombre" type="String[]" visibility="private"/>
+        <Field name="descripcion" type="String[]" visibility="private"/>
+        <Field name="precio" type="String[]" visibility="private"/>
+        <Field name="elementos" type="int" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="registrar" returnType="boolean" visibility="public">
+          <Argument type="String" name="co"/>
+          <Argument type="String" name="no"/>
+          <Argument type="String" name="desc"/>
+          <Argument type="String" name="pre"/>
+        </Method>
+        <Method name="getElementos" returnType="int" visibility="public"/>
+        <Method name="getCodigo" returnType="String" visibility="public">
+          <Argument type="int" name="cual"/>
+        </Method>
+        <Method name="getNombre" returnType="String" visibility="public">
+          <Argument type="int" name="cual"/>
+        </Method>
+        <Method name="getDescripcion" returnType="String" visibility="public">
+          <Argument type="int" name="cual"/>
+        </Method>
+        <Method name="getPrecio" returnType="String" visibility="public">
+          <Argument type="int" name="cual"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
